@@ -7,16 +7,16 @@ import { GraduationCap, Briefcase, Server, Cloud, Code } from "lucide-react";
 export function AboutSection() {
   const journey = [
     {
-      year: "2024 - Present",
+      year: "2025 - Present",
       title: "Master of Computer Applications",
-      institution: "Current Institution",
+      institution: "KSR College Of Engineering, Tiruchengode",
       description: "Specializing in Cloud Computing, DevOps, and Advanced Software Engineering.",
       icon: GraduationCap
     },
     {
-      year: "2021 - 2024",
+      year: "2021 - 2025",
       title: "Bachelor's Degree",
-      institution: "Previous Institution",
+      institution: "Vysysa College, Salem",
       description: "Foundation in Computer Science, Database Management, and Programming.",
       icon: GraduationCap
     }
@@ -54,7 +54,7 @@ export function AboutSection() {
                   Passionate about CI/CD, automation, and infrastructure as code. Turning manual processes into streamlined pipelines.
                 </p>
               </GlowContainer>
-              
+
               <GlowContainer className="p-6">
                 <Code className="w-8 h-8 text-accent-2 mb-4" />
                 <h3 className="text-xl font-bold text-white mb-2">Backend Architecture</h3>
@@ -73,7 +73,7 @@ export function AboutSection() {
             </h3>
             <div className="relative border-l border-white/10 ml-4 space-y-12 pb-8">
               {journey.map((item, index) => (
-                <motion.div 
+                <motion.div
                   key={index}
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}

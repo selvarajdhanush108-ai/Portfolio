@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer className="relative bg-background border-t border-white/10 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_bottom_center,_var(--tw-gradient-stops))] from-accent/10 via-background to-background"></div>
-      
+
       <div className="container mx-auto px-6 max-w-7xl relative z-10 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           <div className="col-span-1 md:col-span-2">
@@ -30,7 +30,7 @@ export function Footer() {
               <span>Salem, Tamil Nadu, India</span>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-heading font-semibold text-white mb-4">Quick Links</h3>
             <ul className="space-y-3">
@@ -53,7 +53,7 @@ export function Footer() {
               <a href="https://www.linkedin.com/in/dhanush-s1006/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-muted-foreground hover:text-white hover:border-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
                 <FaLinkedin size={18} />
               </a>
-              <a href="mailto:contact@dhanushs.in" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-muted-foreground hover:text-white hover:border-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
+              <a href="mailto:dev@dhanushs.in" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-muted-foreground hover:text-white hover:border-accent/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
                 <Mail size={18} />
               </a>
             </div>
