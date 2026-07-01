@@ -64,7 +64,6 @@ export function SkillsSection() {
       skills: [
         { name: "Java", icon: <FaJava className="text-[#007396]" />, progress: 90 },
         { name: "Spring Boot", icon: <SiSpringboot className="text-[#6DB33F]" />, progress: 85 },
-        { name: "REST APIs", icon: <Server className="text-white" />, progress: 90 },
         { name: "Microservices", icon: <Cloud className="text-accent" />, progress: 75 },
       ]
     },
@@ -74,7 +73,6 @@ export function SkillsSection() {
       skills: [
         { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" />, progress: 85 },
         { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" />, progress: 80 },
-        { name: "Firebase", icon: <SiFirebase className="text-[#FFCA28]" />, progress: 85 },
         { name: "Supabase", icon: <SiSupabase className="text-[#3ECF8E]" />, progress: 75 },
       ]
     },
